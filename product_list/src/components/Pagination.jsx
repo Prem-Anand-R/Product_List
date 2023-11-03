@@ -35,18 +35,3 @@ const Pagination = ({ total, currentPage, setCurrentPage }) => {
 
 export default Pagination;
 
-{/* <PaginationContainer>
-<PageNumber>
-<button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage <= 1}>
-    Previous
-  </button>
-</PageNumber>
- 
-  <h3>{currentPage}</h3>
-  <PageNumber>
-  <button onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage >= totalpage}>
-    Next
-  </button>
-  </PageNumber>
- 
-</PaginationContainer> */}
