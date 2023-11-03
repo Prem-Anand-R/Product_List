@@ -24,8 +24,6 @@ const CardProduct=styled.div`
 `;
 
 const CardImage=styled.div`
-   ${'' /* width: 60%;
-   height: 60%; */}
    border-top-left-radius: 30px;
    border-top-right-radius: 30px; 
    `;
@@ -83,19 +81,6 @@ const ProductInfo = () => {
             </div>
 
          </div>
-            {/* <CardProduct>
-                <CardImage className="mt-3 mx-5">
-                    <img src={product.images[0]} alt={product.title}  className='img-fluid' />
-                </CardImage>
-                <Text>
-                    <h5>{product.title}</h5>
-                    <p>Rs.{product.price * 80}</p>
-                    <h5> {product.description} </h5>
-                    <span> Brand: {product.brand} </span>
-                    <span> Qty: {product.stock} </span>
-                    <span> Rating: {product.rating} </span>
-                </Text>
-            </CardProduct> */}
         </div>
        </body>
     )
